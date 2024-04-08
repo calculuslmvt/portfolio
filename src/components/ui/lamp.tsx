@@ -2,8 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
+import { TextGenerateEffectDemo } from "./text-generate-effect";
 
-export function LampDemo({children = (<div> </div>)}) {
+export function LampDemo() {
     return (
       <LampContainer>
         <motion.h1
@@ -17,7 +18,10 @@ export function LampDemo({children = (<div> </div>)}) {
           className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
             <div>
-                {children}
+                <div>
+                    Hi <br/> 
+                </div>
+                <TextGenerateEffectDemo/>
             </div>
           
         </motion.h1>
