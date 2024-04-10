@@ -18,14 +18,14 @@ export function LampHomePage() {
             duration: 0.5,
             ease: "easeInOut",
           }}
-          className="mt-6 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+          className="mt-4 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
             <div>
                 <div className="text-6xl">
                     Hi <br/> 
                 </div>
-                <TextGenerateEffectDemo content = "I am Ayush," textSize="text-2xl dark:text-white/30 text-black"/>
-                <TextGenerateEffectDemo content = "A Full Stack Dev" textSize="text-xl dark:text-white/50 text-black"/>
+                <TextGenerateEffectDemo content = "I am Ayush," textSize="text-2xl dark:text-slate-200 text-black"/>
+                <TextGenerateEffectDemo content = "A Full Stack Dev" textSize="text-xl dark:text-slate-300 text-black"/>
                 <br/>
                 <TextGenerateEffectDemo content = {aboutMe} textSize="text-base text-slate-600"/>
             </div>
@@ -103,13 +103,13 @@ export const LampContainer = ({
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 mt-40"
+          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 mt-36"
         ></motion.div>
 
-        <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 mt-40"></div>
+        <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 mt-36"></div>
       </div>
 
-      <div className="relative z-50 flex -translate-y-20 flex-col items-center px-5">
+      <div className="relative z-50 flex -translate-y-32 flex-col items-center px-5">
         {children}
       </div>
     </div>
