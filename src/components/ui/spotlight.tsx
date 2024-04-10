@@ -24,10 +24,10 @@ export function SpotlightPreview() {
             
           </p>
           <br/>
-          <div className="flex gap-4 justify-center items-center">
+          <div className="flex gap-4 justify-center items-center mt-4">
             <TailwindcssButtons content="Linkedin"/>
             <TailwindcssButtons content="Github"/>
-            <TailwindcssButtons content="email"/>
+            <TailwindcssButtons content="Email"/>
           </div>
         </div>
       </div>

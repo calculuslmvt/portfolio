@@ -1,24 +1,19 @@
 "use client"
-import { TextGenerateEffectDemo } from "@/components/ui/text-generate-effect";
-import { LampDemo } from "@/components/ui/lamp";
-import { BentoGridDemo } from "@/components/ui/bento-grid";
-import { SparklesPreview } from "@/components/ui/sparkles"; 
+import { LampHomePage } from "@/components/ui/lamp";
 import { SpotlightPreview } from "@/components/ui/spotlight";
-import { useState } from "react";
+import { FloatingNavMenu } from "@/components/ui/floating-navbar";
+import { NavbarMenu } from "@/components/ui/navbar-menu";
+import { LampPage2 } from "@/components/ui/lampPage2";
+import { LampPage3 } from "@/components/ui/lampPage3";
 
 export default function Home() {
-  const [value, setValue] = useState("Work-Ex / Projects");
   return (
     <>
-    <LampDemo/>
-    <div className="flex-col">
-      <SparklesPreview value={value}/>
-      <BentoGridDemo/>
-    </div>
-    <br/>
-    <br/>
-    <SpotlightPreview/>
-
+      <NavbarMenu/>
+      <LampHomePage/>
+      <LampPage2/>
+      <LampPage3/>
+      <SpotlightPreview/>
     </>
   )
 }

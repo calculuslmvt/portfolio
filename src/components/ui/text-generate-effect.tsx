@@ -5,16 +5,18 @@ import { cn } from "@/utils/cn";
 
 const words = `I am Ayush a Full Stack Developer`;
  
-export function TextGenerateEffectDemo() {
-  return <TextGenerateEffect words={words} />;
+export function TextGenerateEffectDemo({content="", textSize="text-xl"}) {
+  return <TextGenerateEffect words= {content} textSize={textSize}/>;
 }
 
 export const TextGenerateEffect = ({
   words,
+  textSize,
   className,
 }: {
   words: string;
   className?: string;
+  textSize?:string
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -38,7 +40,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className="dark:text-white text-black opacity-0"
+              className="opacity-0"
             >
               {word}{" "}
             </motion.span>
@@ -51,7 +53,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-italic", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-black text-2xl leading-snug tracking-wide">
+        <div className=  {`${textSize} leading-snug tracking-wide`}>
           {renderWords()}
         </div>
       </div>

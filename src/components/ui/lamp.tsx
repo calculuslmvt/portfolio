@@ -4,24 +4,30 @@ import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 import { TextGenerateEffectDemo } from "./text-generate-effect";
 
-export function LampDemo() {
+
+const aboutMe = " - Zen Mode"
+
+export function LampHomePage() {
     return (
       <LampContainer>
         <motion.h1
-          initial={{ opacity: 0.5, y: 100 }}
+          initial={{ opacity: 0.5, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
-            delay: 0.3,
-            duration: 0.8,
+            delay: 0.1,
+            duration: 0.5,
             ease: "easeInOut",
           }}
-          className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+          className="mt-6 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
             <div>
-                <div>
+                <div className="text-6xl">
                     Hi <br/> 
                 </div>
-                <TextGenerateEffectDemo/>
+                <TextGenerateEffectDemo content = "I am Ayush," textSize="text-2xl dark:text-white/30 text-black"/>
+                <TextGenerateEffectDemo content = "A Full Stack Dev" textSize="text-xl dark:text-white/50 text-black"/>
+                <br/>
+                <TextGenerateEffectDemo content = {aboutMe} textSize="text-base text-slate-600"/>
             </div>
           
         </motion.h1>
@@ -39,7 +45,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
+        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-transparent w-full rounded-md z-0",
         className
       )}
     >
@@ -97,13 +103,13 @@ export const LampContainer = ({
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 "
+          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 mt-40"
         ></motion.div>
 
-        <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 "></div>
+        <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 mt-40"></div>
       </div>
 
-      <div className="relative z-50 flex -translate-y-80 flex-col items-center px-5">
+      <div className="relative z-50 flex -translate-y-20 flex-col items-center px-5">
         {children}
       </div>
     </div>
