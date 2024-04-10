@@ -115,7 +115,7 @@ export function LampPage2() {
           <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 mt-40"></div>
         </div>
   
-        <div className="relative z-50 flex -translate-y-20 flex-col items-center px-5 mt-10">
+        <div className="relative z-50 flex -translate-y-44 flex-col items-center px-5 mt-10">
           {children}
         </div>
       </div>

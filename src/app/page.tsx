@@ -9,7 +9,7 @@ import { LampPage3 } from "@/components/ui/lampPage3";
 export default function Home() {
   return (
     <>
-      <NavbarMenu/>
+      
       <LampHomePage/>
       <LampPage2/>
       <LampPage3/>

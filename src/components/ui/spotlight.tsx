@@ -1,7 +1,7 @@
 import React from "react";
 import { cn } from "@/utils/cn";
 import { TailwindcssButtons } from "./tailwindcss-buttons";
-
+import { LampAboutPage } from "./aboutPageLamp";
 
 type SpotlightProps = {
     className?: string;

@@ -23,13 +23,12 @@ export function NavbarMenu() {
       >
         <Menu setActive={setActive}>
 
-            <Link href="https://google.com">
+            <Link href="/">
                 <MenuItem setActive={setActive} active={active} item="Home"/>
             </Link>
-          
-
-          <MenuItem setActive={setActive} active={active} item="About">
-          </MenuItem>
+            <Link href="/about">
+                <MenuItem setActive={setActive} active={active} item="About"/>
+            </Link>
         </Menu>
       </div>
     );
