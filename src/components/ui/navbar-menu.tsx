@@ -19,7 +19,7 @@ export function NavbarMenu() {
     const [active, setActive] = useState<string | null>(null);
     return (
       <div
-        className={cn("fixed top-0 inset-x-0 max-w-2xl mx-auto z-50", className)}
+        className={cn("fixed top-1 inset-x-0 max-w-2xl mx-auto z-50", className)}
       >
         <Menu setActive={setActive}>
 
@@ -60,7 +60,7 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white/50 text-sm"
+        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white/50 mt-2"
       >
         {item}
       </motion.p>
