@@ -146,10 +146,7 @@ export const CardDescription = ({
   );
 };
 export const CardImage = ({
-    children,
-  }: {
-    className?: string;
-    children: React.ReactNode;
+    children="",
   }) => { 
     return (
         <div className="border-2 h-36 rounded-md" style={{ position: 'relative'}}>
