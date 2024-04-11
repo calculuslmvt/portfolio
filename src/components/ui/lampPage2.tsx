@@ -21,7 +21,7 @@ export function LampPage2() {
             }}
             
 
-            className="mt-6 bg-gradient-to-br from-slate-300 to-slate-600 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+            className="relative mt-5 bg-gradient-to-br from-slate-300 to-slate-600 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
             >
                 <div>
                     <div className="text-4xl">
