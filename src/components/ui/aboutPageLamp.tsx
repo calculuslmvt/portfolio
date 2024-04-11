@@ -18,7 +18,7 @@ export function LampAboutPage() {
             duration: 0.5,
             ease: "easeInOut",
           }}
-          className="mt-4 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+          className=" bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
             <div>
                 <TextGenerateEffectDemo content = "About" textSize="text-2xl dark:text-slate-200 text-black"/>
@@ -103,10 +103,10 @@ export const LampContainer = ({
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-blue-500 mt-36"
+          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-blue-500"
         ></motion.div>
 
-        <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 mt-36"></div>
+        <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950"></div>
       </div>
 
       <div className="relative z-50 flex -translate-y-[19rem] md:-translate-y-[19rem] lg:-translate-y-[20rem] flex-col items-center px-5">
