@@ -11,7 +11,7 @@ const content = [
     {
       title: "Amazon SDE Intern",
       description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+        "Designed and created features consisting Server-side and frontend enhancements for vendor facing chatbot, Which 2x the percentage of chatbot adoption.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white bg-[linear-gradient(to_bottom_right,var(--slate-500),var(--slate-800))]">
           <Image
@@ -29,9 +29,9 @@ const content = [
       ),
     },
     {
-      title: "Real time changes",
+      title: "Tech Stack used",
       description:
-        "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+        "Worked on JavaScriptJs | AmazonUI | NodeJs | AWS | CDK | Javascript | JAVA | Deployments pipelines | HLD | LLD.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white ">
           <Image
@@ -48,9 +48,9 @@ const content = [
       ),
     },
     {
-      title: "Version control",
+      title: "Testing",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Implemented thorough testing of the integrated features via Unit testing and Integration testing.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--slate-500),var(--slate-800))] flex items-center justify-center text-white">
            <Image
@@ -67,9 +67,28 @@ const content = [
       ),
     },
     {
-      title: "Running out of content",
+      title: "Monitoring Systems",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Designed and developed monitoring system for multiple services by utilising CDK and AWS cloudwatch generating metrics and proper logging mechanism.",
+      content: (
+        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--teal-500),var(--teal-800))] flex items-center justify-center text-white">
+           <Image
+            src="/Amazon_icon.svg"
+            fill
+            style={{
+                objectFit: 'contain', // cover, contain, none
+                borderRadius: '3%'
+            }}
+            className="h-full w-full object-cove p-1"
+            alt="linear board demo"
+          />
+        </div>
+      ),
+    },
+    {
+      title: "Time - 6 months",
+      description:
+        "",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--teal-500),var(--teal-800))] flex items-center justify-center text-white">
            <Image

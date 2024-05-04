@@ -25,9 +25,18 @@ export function SpotlightPreview() {
           </p>
           <br/>
           <div className="flex gap-4 justify-center items-center mt-4">
+            
+          <a href="https://www.linkedin.com/in/ayush-singh-62a6401ab/">
             <TailwindcssButtons content="Linkedin"/>
-            <TailwindcssButtons content="Github"/>
-            <TailwindcssButtons content="Email"/>
+          </a>
+
+            <a href="https://github.com/calculuslmvt">
+              <TailwindcssButtons content="Github"/>
+            </a>
+            <a href="https://calculuslmvt@gmail.com">
+              <TailwindcssButtons content="Email"/>
+            </a>
+            
           </div>
         </div>
       </div>

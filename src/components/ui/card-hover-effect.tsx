@@ -16,22 +16,29 @@ export function CardHoverEffect() {
     {
       title: "ZenStream",
       description:
-        "A technology company that builds economic infrastructure for the internet.",
+        "It is a robust, industry-grade full stack application inspired by Youtube, featuring a comprehensive authentication system, built with NextJs, Express.js, MongoDB.",
       link: "",
       image: "/zenStream.svg"
     },
     {
       title: "ZenChat",
       description:
-        "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+        "It is a WebRTC website which enables direct peer to peer communication via video calls, video streaming and unlimited file sharing.",
       link: "",
       image: "/zenChat.svg"
     },
     {
+      title: "BuyCars",
+      description:
+        "It is a E-commerce website for buying and selling cars. It gives dealers ability to Add new cars and deals for selling and monitor there sales",
+      link: "https://nervesparks-frontend.vercel.app/",
+      image: "/Svelte.png"
+    },
+    {
       title: "Resume",
       description:
-        "A multinational technology company that specializes in Internet-related services and products.",
-      link: "https://google.com",
+        "Linkedin Link",
+      link: "https://drive.google.com/file/d/1SYI76J2Co5gnlFwY6zOwzilHgEhRUJLy/view?usp=sharing",
       image: "/googleDrive.svg"
     },
   ];
