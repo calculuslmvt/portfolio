@@ -17,8 +17,15 @@ export function CardHoverEffect() {
       title: "ZenStream",
       description:
         "It is a robust, industry-grade full stack application inspired by Youtube, featuring a comprehensive authentication system, built with NextJs, Express.js, MongoDB.",
-      link: "",
+      link: "https://zenstreamlite.vercel.app/",
       image: "/zenStream.svg"
+    },
+    {
+      title: "BuyCars",
+      description:
+        "It is a E-commerce website for buying and selling cars . It gives dealers ability to Add new cars and deals for selling and monitor there sales",
+      link: "https://nervesparks-frontend.vercel.app/",
+      image: "/Svelte.png"
     },
     {
       title: "ZenChat",
@@ -27,18 +34,12 @@ export function CardHoverEffect() {
       link: "",
       image: "/zenChat.svg"
     },
-    {
-      title: "BuyCars",
-      description:
-        "It is a E-commerce website for buying and selling cars. It gives dealers ability to Add new cars and deals for selling and monitor there sales",
-      link: "https://nervesparks-frontend.vercel.app/",
-      image: "/Svelte.png"
-    },
+
     {
       title: "Resume",
       description:
         "Linkedin Link",
-      link: "https://drive.google.com/file/d/1SYI76J2Co5gnlFwY6zOwzilHgEhRUJLy/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1H20o4uXxnIWyKCbLiEBRGEWPNRr4Qzvz/view?usp=sharing",
       image: "/googleDrive.svg"
     },
   ];
